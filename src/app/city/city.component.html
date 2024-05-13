@@ -14,7 +14,15 @@
   shadow-md
   mb-4
   ">
-  <p class="text-xl font-semibold text-violet-500">{{city.name}}</p>
+  <div>
+
+    <p class="text-xl font-semibold text-violet-500">{{city.name}}</p>
+    <div class="flex items-center gap-4">
+      <p class="text-sm font-semibold text-gray-500">País: {{city.country}}</p>
+      <p class="text-sm font-semibold text-gray-500">El mejor mes: {{city.bestMonthToVisit}}</p>
+    </div>
+
+  </div>
   <button class="
       px-2
       py-2 
