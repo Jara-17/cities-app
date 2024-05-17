@@ -6,8 +6,11 @@
         px-4 
         py-1 
         border-2 
-        border-fuchsia-500 
-        outline-fuchsia-700
+        bg-gray-900
+        placeholder-violet-500
+        text-white
+        border-violet-500 
+        outline-none
         rounded-full">
   </div>
 
@@ -18,8 +21,11 @@
         px-4 
         py-1 
         border-2 
-        border-fuchsia-500 
-        outline-fuchsia-700
+        bg-gray-900
+        placeholder-violet-500
+        text-white
+        border-violet-500 
+        outline-none
         rounded-full">
   </div>
 
@@ -31,10 +37,13 @@
         px-4 
         py-1 
         border-2 
-        border-fuchsia-500 
-        outline-fuchsia-700
+        bg-gray-900
+        placeholder-violet-500
+        text-violet-500
+        border-violet-500 
+        outline-none
         rounded-full">
-      <option value="" disabled selected>Selecciona el mejor mes</option>
+      <option value="" disabled selected>Selecciona el mejor mes para ir</option>
       <option *ngFor="let month of months" [value]="month">{{month}}</option>
     </select>
   </div>
@@ -43,7 +52,7 @@
             uppercase 
             border-2
             border-red-700
-            bg-red-100
+            bg-none
             text-red-700
             text-lg
             text-center
@@ -60,11 +69,11 @@
       px-4 
       py-2 
       border-2
-      border-fuchsia-700
-      bg-fuchsia-100
-      text-fuchsia-700
+      border-violet-700
+      bg-none
+      text-violet-700
       font-semibold
-      hover:bg-fuchsia-200
+      hover:bg-violet-200
       transition-colors
       rounded-full
       md:float-end
