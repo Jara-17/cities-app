@@ -1,6 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { ICity } from '../interfaces/ICity';
-import { IMonth } from '../interfaces/IMonth';
 
 @Component({
   selector: 'app-add-cities-form',
